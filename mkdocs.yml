@@ -1,0 +1,9 @@
+site_name: My Blog
+
+theme:
+  name: material
+
+plugins:
+  - search
+  - blog
+  - offline
