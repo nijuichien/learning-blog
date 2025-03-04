@@ -1,15 +1,28 @@
 name: Deploy to GitHub Pages
+
 on:
   push:
     branches:
       - main
+
 jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
+      # 檢查出代碼並設置認證
       - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}  # 使用 GITHUB_TOKEN
+
+      # 設置 Python 環境
       - uses: actions/setup-python@v5
         with:
           python-version: '3.x'
+
+      # 安裝 MkDocs 和主題
       - run: pip install mkdocs mkdocs-material
+
+      # 部署到 GitHub Pages
       - run: mkdocs gh-deploy --force
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # 傳遞 GITHUB_TOKEN 給 mkdocs
