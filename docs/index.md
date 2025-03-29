@@ -1,17 +1,9 @@
-# Welcome to MkDocs
+# 歡迎來到我的部落格
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+這裡是我分享技術、生活與想法的地方。請瀏覽文章並享受閱讀！
 
-## Commands
+## 最新文章
+- [第一篇：MkDocs 入門](posts/post1.md)
+- [第二篇：如何寫部落格](posts/post2.md)
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
-
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+<div class="ad-container" id="ad-home"></div> <!-- 廣告容器 -->

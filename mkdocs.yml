@@ -1,9 +1,29 @@
-site_name: My Blog
-
+site_name: 我的 MkDocs 部落格
 theme:
   name: material
-
-plugins:
-  - search
-  - blog
-  - offline
+  features:
+    - content.code.copy
+    - search.suggest
+    - palette:
+        scheme: default  # 支援明暗主題切換
+  language: zh-TW  # 設置為中文
+nav:
+  - 首頁: index.md
+  - 文章:
+      - 第一篇: posts/post1.md
+      - 第二篇: posts/post2.md
+  - 關於我: about.md
+extra_javascript:
+  - javascripts/ads.js  # 用於插入廣告的腳本
+extra_css:
+  - stylesheets/extra.css  # 自定義樣式
+markdown_extensions:
+  - pymdownx.superfences
+  - pymdownx.emoji
+  - attr_list
+extra:
+  generator: false  # 隱藏 "Made with MkDocs" 標誌
+  description: 我的技術與生活部落格
+  # social:
+  #   - icon: fontawesome/brands/twitter
+  #     link: https://twitter.com/你的帳號
