@@ -1,6 +1,7 @@
 site_name: 我的 MkDocs 部落格
 theme:
   name: material
+  custom_dir: overrides
   features:
     - content.code.copy
     - search.suggest
