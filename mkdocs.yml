@@ -16,6 +16,7 @@ nav:
   - 關於我: about.md
 extra_javascript:
   - javascripts/ads.js  # 用於插入廣告的腳本
+  - https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5206602620644694
 extra_css:
   - stylesheets/extra.css  # 自定義樣式
 markdown_extensions:
