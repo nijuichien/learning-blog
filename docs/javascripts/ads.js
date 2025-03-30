@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", function() {
     // 動態插入 Google AdSense 腳本
     const script = document.createElement("script");
     script.async = true;
-    script.src = "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-你的發布者ID";
+    script.src = "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5206602620644694";
     script.crossOrigin = "anonymous";
     document.head.appendChild(script);
 
