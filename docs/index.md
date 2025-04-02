@@ -1,9 +1,47 @@
-# 歡迎來到我的部落格
+# Bei7's Coding Notes
 
-這裡是我分享技術、生活與想法的地方。請瀏覽文章並享受閱讀！
+這裡是我拿來測試及紀錄的地方。</br>
+如果有任何人想要參考或使用，敬請使用。</br>
+但如果有些東西有缺漏的或是勘誤，也請麻煩告訴我。</br>
+</br>
+</br>
+</br>
+##### 這是廣告區域
+<div class="ad-container" id="ad-top">
+    <ins class="adsbygoogle"
+         style="display:block"
+         data-ad-client="ca-pub-5206602620644694"
+         data-ad-slot="9727123268"
+         data-ad-format="auto"
+         data-full-width-responsive="true"></ins>
+</div>
 
-## 最新文章
-- [第一篇：MkDocs 入門](posts/post1.md)
-- [第二篇：如何寫部落格](posts/post2.md)
+</br>
+</br>
+</br>
 
-<div class="ad-container" id="ad-home"></div> <!-- 廣告容器 -->
+##### 這是廣告區域
+<div class="ad-container" id="ad-middle">
+    <ins class="adsbygoogle"
+         style="display:block"
+         data-ad-client="ca-pub-5206602620644694"
+         data-ad-slot="9727123268"
+         data-ad-format="auto"
+         data-full-width-responsive="true"></ins>
+</div>
+
+
+##### 這是廣告區域
+<div class="ad-container" id="ad-bottom">
+    <ins class="adsbygoogle"
+         style="display:block"
+         data-ad-client="ca-pub-5206602620644694"
+         data-ad-slot="9727123268"
+         data-ad-format="auto"
+         data-full-width-responsive="true"></ins>
+</div>
+
+<script>
+    // 初始化所有廣告
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>

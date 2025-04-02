@@ -1,4 +1,24 @@
+/* 廣告容器樣式 */
 .ad-container {
+    background-color: #f8f9fa;
+    padding: 15px;
+    border-radius: 5px;
     margin: 20px 0;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
     text-align: center;
 }
+
+/* 響應式廣告樣式 */
+ins.adsbygoogle {
+    min-height: 100px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+/* 在移動設備上的樣式調整 */
+@media screen and (max-width: 768px) {
+    .ad-container {
+        padding: 10px;
+        margin: 15px 0;
+    }
+} 
